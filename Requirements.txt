@@ -1,0 +1,9 @@
+pandas
+xgboost
+shap
+matplotlib
+seaborn
+sklearn
+numpy
+graphviz
+plotly
