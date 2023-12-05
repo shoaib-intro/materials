@@ -56,23 +56,16 @@ pip install -r requirements.txt
 
 ### Training the Model
 
-To train the XGBoost model on the provided dataset, run the following command:
+Run below comman to star Jupyter in CLI
 
 ```bash
-python train_model.py
+jupyter notebook
 ```
 
-This script will preprocess the data, split it into training and testing sets, and train the XGBoost model. The trained model will be saved in the `models` directory.
+Once the notebook is open in your browser then anvigate to diratory and open attached notebook ending with .ipynb
 
 ### Evaluation
-
-To evaluate the model's performance, you can use the following command:
-
-```bash
-python evaluate_model.py
-```
-
-This script will load the trained model, make predictions on the test data, and display evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared.
+Test dataset is splitted into two sets 20% data used for testing. 
 
 ## Results
 After training and evaluating the XGBoost model, you can expect to see performance metrics that indicate how well the model predicts Vickers Hardness. These metrics will help you assess the model's accuracy and reliability for your specific dataset.
